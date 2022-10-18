@@ -13,6 +13,17 @@
 <ul>
 <li>Clonar el repositorio</li>
 <li>Posicionarse dentro de la carpeta raiz y ejecutar el comando "npm i" para instalar dependencias (en caso de error, utilizar --force)</li>
+<li>Crear un archivo .env que contenga lo siguiente (cambiar lo que esta entre * por los valores correctos):
+  <ul>
+    <li>DATABASE_URL="postgres://*usuario*:*contraseña*@localhost/dogs" (crear DB dogs)</li>
+    <li>API_MAIL_KEY = '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'</li>
+    <li>CLOUDINARY_NAME="dqia1fagm"</li>
+    <li>CLOUDINARY_KEY="723927426738854"</li>
+    <li>CLOUDINARY_KEY_SECRET="ixPaRXx1rK1yNDeEILGz4_bF4DY"</li>
+    <li>JWT_SECRET_TOKEN=*lo que quieran*</li>
+    <li>STRIPE_TOKEN= "sk_test_51LfWiPB2d7giWWON5HW8jCBiVCCQPbZ6OsGStFWdF840dUlseETvgKlwwdLKjJAp2Qzjv78d4QTGQapAowy97F1M00doy0Wqto"</li>
+  </ul>
+</li>
 <li>Ejecutar el comando "npm run dev"</li>
 </ul>
 
